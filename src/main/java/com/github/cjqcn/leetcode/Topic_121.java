@@ -14,7 +14,8 @@ package com.github.cjqcn.leetcode;
 public class Topic_121 {
 
     /**
-     * 解题思路：
+     * 解题思路：寻找正收益序列，然后取正收益序列的最大收益值；
+     *          如果收益序列收益为否，说明最后该序列的最后一天价格比第一天要低，新的序列从这该序列的最一天算起。
      */
     class Solution {
         public int maxProfit(int[] prices) {
